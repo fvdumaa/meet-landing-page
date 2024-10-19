@@ -1,0 +1,15 @@
+/* Reset CSS */
+@import url("reset.css");
+
+/* Variables CSS */
+@import url("variables.css");
+
+/* Components CSS */
+@import url("components.css");
+
+/* General Styling */
+
+/*  */
+img.desktop {
+  display: none;
+}

@@ -1,0 +1,73 @@
+/* Reset CSS */
+@import url("reset.css");
+
+/* Variables CSS */
+@import url("variables.css");
+
+/* Buttons */
+
+.btn {
+  border-radius: 1.8rem;
+  padding: var(--spacing-200) var(--spacing-500);
+  color: var(--clr-neutral000);
+  text-decoration: none;
+  font-weight: var(--fw-black);
+}
+
+.button--primary {
+  background-color: var(--clr-primary600);
+}
+
+.button--primary span {
+  color: var(--clr-primary300);
+}
+
+.button--primary:hover {
+  background-color: var(--clr-primary300);
+}
+
+.button--secondary {
+  background-color: var(--clr-secondary600);
+}
+
+.button--secondary span {
+  color: var(--clr-secondary300);
+}
+
+.button--secondary:hover {
+  background-color: var(--clr-secondary300);
+}
+
+.button--primary:hover span {
+  color: var(--clr-primary600);
+}
+.button--secondary:hover span {
+  color: var(--clr-secondary600);
+}
+
+/* Number */
+
+div.number {
+  border-radius: 50%;
+  border: 1px solid var(--clr-neutral300);
+  text-align: center;
+  height: var(--spacing-700);
+  width: var(--spacing-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-neutral600);
+  font-weight: var(--fw-black);
+  position: relative;
+}
+
+div.number:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: var(--spacing-1000);
+  background-color: var(--clr-neutral300);
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(50%);
+}
