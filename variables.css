@@ -24,8 +24,10 @@
 
   --fs-800: 4rem;
   --fs-600: 2.5rem;
+  --fs-550: 2rem;
   --fs-500: 1.125rem;
   --fs-400: 1rem;
+  --fs-300: 0.75rem;
 
   --spacing-1400: 7rem;
   --spacing-1000: 5rem;
@@ -42,15 +44,6 @@
 
 /* Utility Classes */
 
-body  /* Text Preset 4 */ {
-  color: var(--clr-neutral900);
-  font-family: var(--ff-body);
-  line-height: 110%;
-  letter-spacing: 0;
-  font-size: var(--fs-500);
-  font-weight: var(--fw-medium);
-}
-
 /* Text Preset 1 */
 .text-heading-800 {
   font-size: var(--fs-800);
@@ -60,13 +53,6 @@ body  /* Text Preset 4 */ {
 .text-heading-600 {
   font-size: var(--fs-600);
   font-weight: var(--fw-black);
-}
-/* Text Preset 3 */
-.text-body-accent {
-  letter-spacing: 4px;
-  font-size: var(--fs-400);
-  font-weight: var(--fw-black);
-  color: var(--clr-primary600);
 }
 
 /* Text Preset 5 */
